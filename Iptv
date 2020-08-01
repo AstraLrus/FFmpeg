@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>git.ffmpeg.org Git - ffmpeg.git/atom - &#39;refs/heads/release/4.2&#39; :: RELEASE_NOTES history</title>
+<subtitle>FFmpeg git repo</subtitle>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/history/refs/heads/release/4.2?f=RELEASE_NOTES" />
+<link rel="self" type="application/atom+xml" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/atom/refs/heads/release/4.2?f=RELEASE_NOTES" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git</id>
+<author><name></name></author>
+<icon>static/git-favicon.png</icon>
+<logo>static/git-logo.png</logo>
+<updated>2019-07-21T16:58:41Z</updated>
+<generator version='2.7.4/2.7.4'>gitweb</generator>
+<entry>
+<title type="html">RELEASE_NOTES: Based on the version from 4.1</title>
+<updated>2018-11-02T00:36:21Z</updated>
+<author>
+  <name>Michael Niedermayer</name>
+  <email>michael@niedermayer.cc</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michael@niedermayer.cc</email>
+</contributor>
+<published>2018-11-02T00:36:21Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/984950cc9971f786596d7c9aef4384c1d96e2f48" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/984950cc9971f786596d7c9aef4384c1d96e2f48</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: Based on the version from 4.1
+
+Name suggested by Reto Kromer and Bodecs Bela
+
+Signed-off-by: Michael Niedermayer &lt;michael@niedermayer.cc&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/22db337a40275599eb8883b40bc03ecfc272ca1a..984950cc9971f786596d7c9aef4384c1d96e2f48:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">Drop outdated RELEASE_NOTES</title>
+<updated>2015-03-05T21:25:10Z</updated>
+<author>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</author>
+<contributor>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</contributor>
+<published>2015-03-05T21:25:10Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/d75a73b5fc130c5a90ebbb816d466558a9758532" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/d75a73b5fc130c5a90ebbb816d466558a9758532</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+Drop outdated RELEASE_NOTES
+
+A new RELEASE_NOTES specific to the release will be added.
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/22ad0546c8ab1728c69281145c92f3538d2408c1..d75a73b5fc130c5a90ebbb816d466558a9758532:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">avformat/mov: Disable XMP metadata by default</title>
+<updated>2014-12-09T01:57:01Z</updated>
+<author>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-12-09T01:57:01Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/e2829a8175de8a2c64b45c70e21f46ec528eea99" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/e2829a8175de8a2c64b45c70e21f46ec528eea99</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+avformat/mov: Disable XMP metadata by default
+
+This was suggested by cbsrobot, ubitux and koda
+
+There are files with huge amounts of XMP data, which would otherwise
+be displayed in the terminal output of FFmpeg
+
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/f96fcba1e3bc991245e2cd44a40968bf2ffe4d9f..e2829a8175de8a2c64b45c70e21f46ec528eea99:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">RELEASE_NOTES: update for 2.5</title>
+<updated>2014-12-03T20:55:34Z</updated>
+<author>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-12-03T20:55:34Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/dac9e509020784e8f8c5c332bdbbce7001719400" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/dac9e509020784e8f8c5c332bdbbce7001719400</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: update for 2.5
+
+If you spot something missing wrong or improvable, do not hesitate
+to push fixes
+
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/43520771f1d01c6acaf516023afff3504b7807bc..dac9e509020784e8f8c5c332bdbbce7001719400:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">Changelog/RELEASE_NOTES: prepare for 2.4</title>
+<updated>2014-09-14T06:32:46Z</updated>
+<author>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</author>
+<contributor>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</contributor>
+<published>2014-09-14T06:32:46Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/5eef7042d8a2ab229dd051894b87302e4e62bfec" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/5eef7042d8a2ab229dd051894b87302e4e62bfec</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+Changelog/RELEASE_NOTES: prepare for 2.4
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/fa1b5631964b608ed2abb3099fb7ba9e1e521878..5eef7042d8a2ab229dd051894b87302e4e62bfec:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">doc: mention important API changes in the RELEASE_NOTES</title>
+<updated>2014-09-14T00:08:08Z</updated>
+<author>
+  <name>Andreas Cadhalpun</name>
+  <email>Andreas.Cadhalpun@googlemail.com</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-09-14T00:08:08Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/365b9cf6245e14e5d9380b0084dfc79a3fdb6871" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/365b9cf6245e14e5d9380b0084dfc79a3fdb6871</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+doc: mention important API changes in the RELEASE_NOTES
+
+Signed-off-by: Andreas Cadhalpun &lt;Andreas.Cadhalpun@googlemail.com&gt;
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/2638af2fc5ec4b85d42ac381ed3f2fe7237e94e1..365b9cf6245e14e5d9380b0084dfc79a3fdb6871:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">RELEASE_NOTES: add version numbers</title>
+<updated>2014-09-13T22:14:58Z</updated>
+<author>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-09-13T22:14:58Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/5312fb13b47cd529d1d5c11874494a6d4756c131" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/5312fb13b47cd529d1d5c11874494a6d4756c131</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: add version numbers
+
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/c2a7607a1ca6830de1d2249b875630a1098de0e0..5312fb13b47cd529d1d5c11874494a6d4756c131:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">RELEASE_NOTES: Add next versions name (Fresnel)</title>
+<updated>2014-09-13T21:43:20Z</updated>
+<author>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-09-13T21:43:20Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/c2a7607a1ca6830de1d2249b875630a1098de0e0" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/c2a7607a1ca6830de1d2249b875630a1098de0e0</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: Add next versions name (Fresnel)
+
+The name is &quot;randomly&quot; picked from previous suggestions
+If people prefer something else, suggest it quickly
+
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/36ea35bbc0e3364d7725a0eed8ebde258a3e75fd..c2a7607a1ca6830de1d2249b875630a1098de0e0:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">doc: document the addition of the AVProbeData.mime_type field and it&#39;s implications</title>
+<updated>2014-09-12T16:18:42Z</updated>
+<author>
+  <name>Andreas Cadhalpun</name>
+  <email>Andreas.Cadhalpun@googlemail.com</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-09-12T16:18:42Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/d5e802609a0046441798cdbd137c96e4aa912390" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/d5e802609a0046441798cdbd137c96e4aa912390</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+doc: document the addition of the AVProbeData.mime_type field and it&#39;s implications
+
+Signed-off-by: Andreas Cadhalpun &lt;Andreas.Cadhalpun@googlemail.com&gt;
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/cdb3eee7c496f763d195de34be7f67783b98fb2c..d5e802609a0046441798cdbd137c96e4aa912390:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">Revert the default for ffplay to -noautoexit.</title>
+<updated>2014-09-08T15:51:12Z</updated>
+<author>
+  <name>Carl Eugen Hoyos</name>
+  <email>cehoyos@ag.or.at</email>
+</author>
+<contributor>
+  <name>Carl Eugen Hoyos</name>
+  <email>cehoyos@ag.or.at</email>
+</contributor>
+<published>2014-09-08T15:51:12Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/552ce6874c8a6798edb17b685472aebb86381caa" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/552ce6874c8a6798edb17b685472aebb86381caa</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+Revert the default for ffplay to -noautoexit.
+
+Reviewed-by: Marton Balint
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/42b4da75b73d79e7323512bcfb7fe32ab0b24178..552ce6874c8a6798edb17b685472aebb86381caa:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">RELEASE_NOTES: mention the ffplay -autoexit behaviour change</title>
+<updated>2014-09-06T19:28:53Z</updated>
+<author>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</author>
+<contributor>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</contributor>
+<published>2014-09-06T19:28:53Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/d8f08047dc9a0cc99268db91bc17643010e7f517" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/d8f08047dc9a0cc99268db91bc17643010e7f517</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: mention the ffplay -autoexit behaviour change
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/3dbf569032e7cabb7c6a76c62ea8130bb74ef71b..d8f08047dc9a0cc99268db91bc17643010e7f517:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">add silenceremove filter</title>
+<updated>2014-07-02T09:39:07Z</updated>
+<author>
+  <name>Paul B Mahol</name>
+  <email>onemda@gmail.com</email>
+</author>
+<contributor>
+  <name>Paul B Mahol</name>
+  <email>onemda@gmail.com</email>
+</contributor>
+<published>2014-07-02T09:39:07Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/422619646ea0e938188a49a06226831cc42e2a6a" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/422619646ea0e938188a49a06226831cc42e2a6a</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+add silenceremove filter
+
+Signed-off-by: Paul B Mahol &lt;onemda@gmail.com&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/1e4e760f767b597f88442b75e90d726ae626b230..422619646ea0e938188a49a06226831cc42e2a6a:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">Merge commit &#39;12f0388f9cb32016ac0dacaeca631b088b29bb96&#39;</title>
+<updated>2014-09-04T18:20:02Z</updated>
+<author>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-09-04T18:20:02Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/69a68d301345a89a27479f2a6093fc4624804049" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/69a68d301345a89a27479f2a6093fc4624804049</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+Merge commit &#39;12f0388f9cb32016ac0dacaeca631b088b29bb96&#39;
+
+* commit &#39;12f0388f9cb32016ac0dacaeca631b088b29bb96&#39;:
+  Add release notes for 11.
+
+Conflicts:
+	doc/RELEASE_NOTES
+
+Mostly not merged
+
+Merged-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/ddc6adaa280aecd973cc3cc1661f8bafe28738c8..69a68d301345a89a27479f2a6093fc4624804049:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">Use makeinfo to generate html doc for the new website</title>
+<updated>2014-09-01T02:39:35Z</updated>
+<author>
+  <name>Timothy Gu</name>
+  <email>timothygu99@gmail.com</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-09-01T02:39:35Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/17ad5fbb8af3ea3fad689064bc84ecfdfe52f0c2" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/17ad5fbb8af3ea3fad689064bc84ecfdfe52f0c2</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+Use makeinfo to generate html doc for the new website
+
+texi2html is deprecated by upstream in favor of makeinfo/texi2any. See:
+
+- https://www.gnu.org/software/texinfo/manual/texinfo/html_node/texi2html.html
+- https://wiki.debian.org/Texi2htmlTransition
+- https://lists.debian.org/debian-devel/2013/05/msg01516.html
+
+This is actually two separate changes.
+
+Based on a patch by Andreas Cadhalpun &lt;Andreas.Cadhalpun@googlemail.com&gt;.
+
+Fixes Trac ticket #3232.
+
+Signed-off-by: Timothy Gu &lt;timothygu99@gmail.com&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/75a9859ac67b60105769fda7160db081216b70f2..17ad5fbb8af3ea3fad689064bc84ecfdfe52f0c2:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">RELEASE_NOTES: mention libmodplug detection change</title>
+<updated>2014-09-01T09:36:02Z</updated>
+<author>
+  <name>Clément Bœsch</name>
+  <email>clement@stupeflix.com</email>
+</author>
+<contributor>
+  <name>Clément Bœsch</name>
+  <email>clement@stupeflix.com</email>
+</contributor>
+<published>2014-09-01T09:36:02Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/343f07e15c58d73a5f8567a5fe27beceb9155de7" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/343f07e15c58d73a5f8567a5fe27beceb9155de7</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: mention libmodplug detection change
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/d4ec07dfe7dbc86e8f6403781c511b9463a526d2..343f07e15c58d73a5f8567a5fe27beceb9155de7:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">avfilter: add codecview filter</title>
+<updated>2014-08-18T14:32:26Z</updated>
+<author>
+  <name>Clément Bœsch</name>
+  <email>clement@stupeflix.com</email>
+</author>
+<contributor>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</contributor>
+<published>2014-08-18T14:32:26Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/f888331769d666fd7b9cebf7d1b6d824300978cb" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/f888331769d666fd7b9cebf7d1b6d824300978cb</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+avfilter: add codecview filter
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/6dfa70f272d7ede75d45991c907dd93c50be1690..f888331769d666fd7b9cebf7d1b6d824300978cb:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">reset and complete RELEASE_NOTES for the next version</title>
+<updated>2014-08-13T18:50:51Z</updated>
+<author>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</author>
+<contributor>
+  <name>Clément Bœsch</name>
+  <email>u@pkh.me</email>
+</contributor>
+<published>2014-08-13T18:50:51Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/ec14f53dbd02d4bbe12d8895370170804ab40779" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/ec14f53dbd02d4bbe12d8895370170804ab40779</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+reset and complete RELEASE_NOTES for the next version
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/14e3025518124f99cb0f5885feb603a9f217d25d..ec14f53dbd02d4bbe12d8895370170804ab40779:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">RELEASE_NOTES: fix WebVTT decoder typo (-&gt; encoder)</title>
+<updated>2014-07-25T02:39:36Z</updated>
+<author>
+  <name>Timothy Gu</name>
+  <email>timothygu99@gmail.com</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-07-25T02:39:36Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/065fa668723687eba234ba93bc9aa532d68c8d1c" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/065fa668723687eba234ba93bc9aa532d68c8d1c</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+RELEASE_NOTES: fix WebVTT decoder typo (-&gt; encoder)
+
+Found-by: Clément Bœsch &lt;u@pkh.me&gt;
+Signed-off-by: Timothy Gu &lt;timothygu99@gmail.com&gt;
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/859413b66daf68402e73e6afa8f888581998f7ed..065fa668723687eba234ba93bc9aa532d68c8d1c:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">avfilter/drawtext: Add basic text shaping using libfribidi</title>
+<updated>2014-06-21T04:41:45Z</updated>
+<author>
+  <name>Marc Jeffreys</name>
+  <email>maj160@live.co.uk</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-06-21T04:41:45Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/a0b71e9f3e95d22b098e4d81c26d3bfe1f53249f" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/a0b71e9f3e95d22b098e4d81c26d3bfe1f53249f</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+avfilter/drawtext: Add basic text shaping using libfribidi
+
+Fixes ticket #3758
+
+Reviewed-by: Andrey Utkin &lt;andrey.krieger.utkin@gmail.com&gt;
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/04980dbee805f372f0505a0afd9ae10c0da1e17e..a0b71e9f3e95d22b098e4d81c26d3bfe1f53249f:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">lavf: Add WebM DASH Manifest Muxer</title>
+<updated>2014-07-14T16:52:23Z</updated>
+<author>
+  <name>Vignesh Venkatasubramanian</name>
+  <email>vigneshv@google.com</email>
+</author>
+<contributor>
+  <name>Michael Niedermayer</name>
+  <email>michaelni@gmx.at</email>
+</contributor>
+<published>2014-07-14T16:52:23Z</published>
+<link rel="alternate" type="text/html" href="http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/3e73d1429045cc2985772391e1f36a034650880d" />
+<id>http://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff/3e73d1429045cc2985772391e1f36a034650880d</id>
+<content type="xhtml" xml:base="http://git.ffmpeg.org/gitweb">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<pre>
+lavf: Add WebM DASH Manifest Muxer
+
+This patch adds the ability to generate WebM DASH manifest XML using
+ffmpeg. A sample command line would be as follows:
+
+ffmpeg \
+  -f webm_dash_manifest -i video1.webm \
+  -f webm_dash_manifest -i video2.webm \
+  -f webm_dash_manifest -i audio1.webm \
+  -f webm_dash_manifest -i audio2.webm \
+  -map 0 -map 1 -map 2 -map 3 \
+  -c copy \
+  -f webm_dash_manifest \
+  -adaptation_sets “id=0,streams=0,1 id=1,streams=2,3” \
+  manifest.xml
+
+It works by exporting necessary fields as metadata tags in matroskadec
+and use those values to write the appropriate XML fields as per the WebM
+DASH Specification [1]. Some ideas are adopted from webm-tools project
+[2].
+
+[1]
+https://sites.google.com/a/webmproject.org/wiki/adaptive-streaming/webm-dash-specification
+[2]
+https://chromium.googlesource.com/webm/webm-tools/+/master/webm_dash_manifest/
+
+Signed-off-by: Vignesh Venkatasubramanian &lt;vigneshv@google.com&gt;
+Signed-off-by: Michael Niedermayer &lt;michaelni@gmx.at&gt;
+</pre><ul>
+<li>[<a href="http://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/5a206569468ae390b0b3c81ba7cc421a0454a19c..3e73d1429045cc2985772391e1f36a034650880d:/RELEASE_NOTES" title="diff">D</a>] RELEASE_NOTES</li>
+</ul>
+</div>
+</content>
+</entry>
+</feed>
